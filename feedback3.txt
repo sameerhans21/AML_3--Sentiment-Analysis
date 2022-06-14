@@ -1,0 +1,7 @@
+85/100
+	
+Thank you for your submission!
+
+This is a very fine piece of work, well organized and clear. You did well on model selection, but I don't have many details about the fine tuning procedure. Performance wise your models scored well. The data preparation is quite classic, which is fine but not surprising.
+
+There is one main point I'm not comfortable with: it appears you used the "selected_text" instead of the tweet itself, which was not the right strategy. Indeed, "selected_text" was to be used *only* for the bonus task, whereas it should not have been used for the classification task, as there is information leakage.
